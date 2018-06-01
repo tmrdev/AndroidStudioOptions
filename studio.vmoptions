@@ -1,0 +1,14 @@
+#
+# See http://tools.android.com/tech-docs/configuration
+#
+
+-server 
+
+-Xms1G
+-Xmx5G
+-XX:MetaspaceSize=512m
+
+-XX:MaxPermSize=2048m
+-XX:ReservedCodeCacheSize=1024m
+-XX:+UseCompressedOops
+
